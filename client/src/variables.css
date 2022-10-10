@@ -1,0 +1,37 @@
+:root {
+    /* ------------------------ */
+    /* FONT-SIZE */
+    /* ------------------------ */
+    /* 12px -> 12/16 = */
+    --font-size-xxxs: 0.75rem;
+    /* 14px -> 14/16 = */
+    --font-size-xxs:  0.875rem;
+    /* 16px -> 16/16 = */
+    --font-size-xs:  1rem;
+    /* 18px -> 18/16 = */
+    --font-size-s: 1.125rem;
+    /* 24px -> 24/16 = */
+    --font-size-m: 1.5rem;
+    /* 28px -> 28/16 = */
+    --font-size-xl: 1.75rem;
+    /* 46px -> 46/16 = */
+    --font-size-xxl: 2.875rem;
+
+    /* ------------------------ */
+    /* SPACING */
+    /* ------------------------ */
+    --spacing--m: 1rem; 
+    /* 32px -> 32/16 */
+    --spacing--l: 2rem;
+
+    /* ------------------------ */
+    /* COLORS */
+    /* ------------------------ */
+    --color-yellow: #FFE600;
+    --color-black: #333;
+    --color-dark-grey: #666;
+    --color-grey: #999;
+    --color-light-grey: #EEE;
+    --color-blue: #3484FA;
+    --color-white: #fff;
+}

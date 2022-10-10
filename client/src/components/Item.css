@@ -1,0 +1,64 @@
+.Item {
+    border-bottom: 2px solid var(--color-light-grey);
+}
+
+.Item-btn {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.Item > * {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.Item__Img {
+    margin: 1rem;
+    width: 15%;
+}
+
+.Item__Img img {
+    object-fit: contain;
+    width: 8.3rem;
+    height: 8.3rem;
+    border-radius: 4px;
+}
+
+.Item__Information {
+    flex-direction: column;
+    width: 65%;
+}
+
+.Item__Information-price {
+    display: flex;
+}
+
+.Item__Information-price-title {
+    font-size: var(--font-size-m);
+    padding: .5rem;
+}
+
+.Item__Information-title-description {
+    font-size: var(--font-size-s);
+    padding: .5rem;
+    text-align: left;
+}
+
+.Item__Information-price-icon {
+    object-fit: contain;
+}
+
+.Item__Location-description {
+    font-size: var(--font-size-xxxs);
+}
+
+.Item__Location {
+    width: 20%;
+    align-items: center;
+}
+

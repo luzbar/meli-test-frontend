@@ -1,0 +1,72 @@
+
+.ItemDetail { 
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 15rem 15rem 1fr;
+    gap: 1rem;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Image Image Price"
+      "Image Image Price"
+      "Description Description Description";
+    }
+
+.ItemDetail__Image { 
+    grid-area: Image;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ItemDetail__Image img {
+    object-fit: contain;
+}
+  
+.ItemDetail__Description { 
+    grid-area: Description;
+    padding: 2rem;
+}
+
+.ItemDetail__Description--title {
+    font-size: var(--font-size-xl);
+}
+
+.ItemDetail__Description--text {
+    font-size: var(--font-size-xs);
+    margin: 1rem 0;
+    width: 70%;
+    line-height: 1.5rem;
+}
+  
+.ItemDetail__Price { 
+    grid-area: Price; 
+    padding-top: 2rem;
+    padding-right: 2rem;
+}
+
+.ItemDetail__Price--info {
+    font-size: var(--font-size-xxs);
+}
+
+.ItemDetail__Price--title {
+    font-size: var(--font-size-m);
+    padding-top: 1rem;
+}
+
+.ItemDetail__Price--price {
+    font-size: var(--font-size-xxl);
+    padding: 2rem 0;
+}
+
+.ItemDetail__Price--button {
+    border: none;
+    cursor: pointer;
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    padding: 1rem 0;
+    display: block;
+    width: 90%;
+    font-size: var(--font-size-s);
+    border-radius: .2rem;
+}

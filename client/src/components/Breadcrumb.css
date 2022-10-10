@@ -1,0 +1,19 @@
+.Breadcrumb { 
+    grid-area: Breadcrumb;
+    display: flex;
+    align-items: center;
+}
+
+.Breadcrumb nav ol{
+    display: flex;
+}
+
+.Breadcrumb--li {
+    padding: .2rem 1rem .2rem 0;
+}
+
+.Breadcrumb--link {
+    font-size: var(--font-size-xxxs);
+    text-decoration: none;
+    color: var(--color-dark-grey)
+}
